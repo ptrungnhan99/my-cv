@@ -3,8 +3,8 @@ import { Github, Linkedin, Mail, Heart  } from "lucide-react"
 import Link from "next/link"
 export function Footer() {
     const d = new Date();
-    let year = d.getFullYear();
-    let myname = "Trung Nhan";
+    const year = d.getFullYear();
+    const myname = "Trung Nhan";
     return (
         <footer className="bg-muted/50 border-t">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
